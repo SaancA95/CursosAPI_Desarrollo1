@@ -25,4 +25,17 @@ public class CursosJpa implements Serializable {
 	private int duracion;
 	private Date fecha;
 	private boolean estado;
+	
+	
+	public CursosJpa(int idCurso, String nombre, String descripcion, int duracion, Date fecha, boolean estado) {
+		
+		this.idCurso = idCurso;
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.duracion = duracion;
+		this.fecha = fecha;
+		this.estado = estado;
+	}
+	
+	
 }
